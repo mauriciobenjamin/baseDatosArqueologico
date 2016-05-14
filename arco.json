@@ -1,0 +1,70 @@
+"Sitio": {
+    "Nombre": "CNCPC",
+    "Epocas": ["Colonial", "XIX", "Inicios del Siglo XX", "Museo del Automovil", "Centro Coremans", "CNCPC"],
+    "Climatología": {
+        "Tipo_clima": "CWO", //Clasificación estandar del clima
+        "Precipitación": 800,
+       },
+    "Suelo": "Shernozen",
+    "Riesgos": {
+        "zonaPrevINAH": "Roja",
+        "Sismos": true,
+        "Vandalismo": true,
+        "Inundación": false,
+        "Incendio": false,
+        "huracanes": false,
+    },   
+    "Conjunto": {
+        "Nombre": "Templo", 
+        "Estructura": {
+            "Elemento": {
+                "Nombre": "Arco",
+                "Dimensiones": {
+                    "altura": 1.2,
+                    "ancho": 0.20,
+                    "largo": 0.90,
+                },
+                "Ubicación": {
+                    "Referencia": "idConjunto",
+                    "Banco": "idBanco",
+                    "Externo": true,
+                    "Orientacion": "norte",
+                    "Coordenada": {
+                        "vector": 23, //Tomados con cinta
+                        "angulo": 45, //Tomados a partir del Norte Magnetico
+                    }
+                },
+                "Datos generales": {
+                    "Descripción": "Es un arquito",
+                    "epoca": "Sitio.Epoca(4)",
+                },
+                "Elementos": {},
+                "estructura": {
+                    "tipoSoporte": "soportes.tipo(2)",
+                    "preparacion": false, //si true entontes tipoPreparacion
+                    "recubrimientos": "",
+                    "policromia": "",
+                    "relieves": "",
+                    "morteros"
+                },
+                "Intervenciones": [
+                    {
+                        "epoca": "2015",
+                        "tipoInterv": "resanes"
+                    }
+                ],
+                "Estudios": [
+                    {}
+                ],
+                "edoConservacion": {
+                    "sales": false,
+                
+                    
+                },
+                "necesidadConserv": {
+                    
+                }
+            } 
+        }
+    }
+}

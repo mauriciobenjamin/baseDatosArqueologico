@@ -22,3 +22,8 @@ var estructuras = new Schema({
     type: Date,
   }
 })
+
+var elemento = new Schema({
+  nombre: String,
+  tipo: 
+});

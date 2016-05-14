@@ -1,0 +1,60 @@
+"aplanado": {
+    "conglomerante": "cal",
+    "carga": "arena"
+}
+
+"policromia": {
+    "pigmentos": {
+        "pigmentoN": ""
+    },
+    "aglutinante": "goma",
+}
+
+"morteroInterv": {
+    "cargas": "sascab",
+    "conglomerante": "cal",
+    "exterior": false,
+    "tiempoResistencia": "", //fecha? años?
+    "propCarga": 3,
+    "propConglo": 1,
+    "aditivos": "miel", 
+    "volAplicado": 0.03, //en dm3?    
+}
+
+"estudios": {
+    "termografía": "",
+    "tipoSuelo": "",
+    "satelital":,
+    "idenMat":,
+    "conductiv":,
+    "pH":,
+    "pHSuelo":,
+    "microscopia":,
+    "tomaMuestras":,
+    "geofsicos":,
+}
+
+"registros": {
+    "foto": [
+        "luz natural","IR","UV fluroescencia",
+    ],
+    "radiología": ,
+    "3d": ,
+    "levantamiento":,
+    "colorimetria":,
+    "satelitales": {
+        
+    },
+    "areas": {
+        
+    },
+}
+
+"deterioros": {
+    "microorganismos": {       
+    }
+    "estructurales": {
+        
+    }
+}
+
